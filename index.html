@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed BEJI | Étudiant BTS SIO SLAM</title>
+  <meta name="description" content="Portfolio de Mohamed BEJI, étudiant en BTS SIO option SLAM au CNED. Développement web et applicatif. À la recherche de stages en Île-de-France.">
+  <meta name="author" content="Mohamed BEJI">
+  <meta property="og:title" content="Mohamed BEJI | Étudiant BTS SIO SLAM">
+  <meta property="og:description" content="Portfolio de Mohamed BEJI, étudiant en BTS SIO SLAM, à la recherche de stages en développement.">
+  <meta property="og:image" content="photo.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0f17'/><text x='50' y='66' font-size='46' font-family='Arial' font-weight='700' text-anchor='middle' fill='%2338bdf8'>MB</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">&lt;MB /&gt;</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about"><span lang="fr">À propos</span><span lang="en">About</span></a>
+        <a href="#skills"><span lang="fr">Compétences</span><span lang="en">Skills</span></a>
+        <a href="#experience"><span lang="fr">Parcours</span><span lang="en">Experience</span></a>
+        <a href="#projects"><span lang="fr">Projets</span><span lang="en">Projects</span></a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Changer de langue / Switch language">
+          <span class="lang-opt" data-lang="fr">FR</span>
+          <span class="lang-opt" data-lang="en">EN</span>
+        </button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <a href="#internship" class="badge">
+            <span class="dot"></span>
+            <span lang="fr">Disponible pour un stage</span><span lang="en">Available for an internship</span>
+          </a>
+          <p class="hello mono"><span lang="fr">Bonjour, je suis</span><span lang="en">Hi, I'm</span></p>
+          <h1>Mohamed <span class="grad">BEJI</span></h1>
+          <h2 class="role">
+            <span lang="fr">Étudiant en BTS SIO, option SLAM</span>
+            <span lang="en">BTS SIO student, Software Development (SLAM)</span>
+          </h2>
+          <p class="subtitle">
+            <span lang="fr">Solutions Logicielles et Applications Métiers : futur développeur d'applications.</span>
+            <span lang="en">Software Solutions and Business Applications: future application developer.</span>
+          </p>
+          <p class="location">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+            Essonne (91), Île-de-France
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary"><span lang="fr">Me contacter</span><span lang="en">Contact me</span></a>
+            <a href="https://www.linkedin.com/in/beji-mohamed-a06478214" target="_blank" rel="noopener" class="btn btn-ghost" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/MHD917" target="_blank" rel="noopener" class="btn btn-ghost" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57v-2.2c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="photo.jpg" alt="Photo de Mohamed BEJI" width="300" height="400">
+          </div>
+          <div class="code-card mono" aria-hidden="true">
+            <span class="c-key">const</span> <span class="c-var">mohamed</span> = {<br>
+            &nbsp;&nbsp;bts: <span class="c-str">"SIO SLAM"</span>,<br>
+            &nbsp;&nbsp;stage: <span class="c-bool">true</span><br>
+            };
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title reveal"><span class="mono num">01.</span> <span lang="fr">À propos</span><span lang="en">About me</span></h3>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p lang="fr">
+              Étudiant en 1<sup>re</sup> année de BTS SIO option SLAM au CNED, je me forme au développement d'applications et de sites web.
+              Passionné d'informatique depuis toujours, j'ai codé mon premier programme en Python lors de mon stage de 3<sup>e</sup>
+              dans une entreprise de logiciels, puis créé plusieurs boutiques en ligne avec Shopify.
+            </p>
+            <p lang="fr">
+              Mon expérience dans le bâtiment m'a appris la rigueur, l'autonomie et le travail en équipe, des qualités que
+              j'applique aujourd'hui au code. <strong>Je recherche actuellement un stage en développement.</strong>
+            </p>
+            <p lang="en">
+              First-year student in the BTS SIO (Software Development option) at CNED, I am training to build applications and websites.
+              Passionate about computers for as long as I can remember, I wrote my first Python program during a work placement
+              at a software company at age 14, then built several online stores with Shopify.
+            </p>
+            <p lang="en">
+              My experience in construction taught me rigor, autonomy and teamwork, qualities I now bring to my code.
+              <strong>I am currently looking for a software development internship.</strong>
+            </p>
+          </div>
+          <ul class="stats reveal">
+            <li><strong>3</strong><span lang="fr">boutiques en ligne créées</span><span lang="en">online stores built</span></li>
+            <li><strong>6+</strong><span lang="fr">ans d'expérience pro</span><span lang="en">years of work experience</span></li>
+            <li><strong>3</strong><span lang="fr">langues parlées</span><span lang="en">languages spoken</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h3 class="section-title reveal"><span class="mono num">02.</span> <span lang="fr">Compétences</span><span lang="en">Skills</span></h3>
+        <div class="cards-3">
+          <article class="card reveal">
+            <div class="card-icon">&lt;/&gt;</div>
+            <h4><span lang="fr">Développement</span><span lang="en">Development</span></h4>
+            <ul class="tags">
+              <li>HTML5</li><li>CSS3</li>
+              <li><span lang="fr">JavaScript (bases)</span><span lang="en">JavaScript (basics)</span></li>
+              <li>PHP</li><li>SQL / MySQL</li>
+              <li><span lang="fr">Python (algorithmique)</span><span lang="en">Python (algorithms)</span></li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">{ }</div>
+            <h4><span lang="fr">Conception &amp; outils</span><span lang="en">Design &amp; tools</span></h4>
+            <ul class="tags">
+              <li><span lang="fr">Modélisation BDD (Merise, MCD/MLD)</span><span lang="en">Database modeling (Merise)</span></li>
+              <li><span lang="fr">Bases d'UML</span><span lang="en">UML basics</span></li>
+              <li>Git / GitHub</li><li>VS Code</li><li>Shopify</li>
+              <li><span lang="fr">Linux &amp; réseaux (TCP/IP)</span><span lang="en">Linux &amp; networking (TCP/IP)</span></li>
+              <li><span lang="fr">Notions de cybersécurité</span><span lang="en">Cybersecurity fundamentals</span></li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">Aa</div>
+            <h4><span lang="fr">Langues</span><span lang="en">Languages</span></h4>
+            <ul class="langs">
+              <li>
+                <div class="lang-row"><span><span lang="fr">Arabe</span><span lang="en">Arabic</span></span><em><span lang="fr">Langue maternelle</span><span lang="en">Native</span></em></div>
+                <div class="bar"><i style="--w:100%"></i></div>
+              </li>
+              <li>
+                <div class="lang-row"><span><span lang="fr">Français</span><span lang="en">French</span></span><em><span lang="fr">Courant</span><span lang="en">Fluent</span></em></div>
+                <div class="bar"><i style="--w:92%"></i></div>
+              </li>
+              <li>
+                <div class="lang-row"><span><span lang="fr">Anglais</span><span lang="en">English</span></span><em><span lang="fr">Intermédiaire (B2)</span><span lang="en">Intermediate (B2)</span></em></div>
+                <div class="bar"><i style="--w:65%"></i></div>
+              </li>
+            </ul>
+            <p class="soft">
+              <span lang="fr">Rigueur · Autonomie · Travail en équipe · Sens des responsabilités</span>
+              <span lang="en">Rigor · Autonomy · Teamwork · Sense of responsibility</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h3 class="section-title reveal"><span class="mono num">03.</span> <span lang="fr">Parcours</span><span lang="en">Experience &amp; education</span></h3>
+
+        <div class="two-cols">
+          <div>
+            <h4 class="col-title"><span lang="fr">Expériences</span><span lang="en">Work experience</span></h4>
+            <ol class="timeline">
+              <li class="tl-item reveal">
+                <span class="tl-date mono"><span lang="fr">2020 – aujourd'hui</span><span lang="en">2020 – present</span></span>
+                <h5><span lang="fr">Ouvrier polyvalent du bâtiment</span><span lang="en">General construction worker</span></h5>
+                <p class="tl-org"><span lang="fr">Entreprise du BTP · Île-de-France</span><span lang="en">Construction company · Île-de-France</span></p>
+                <ul lang="fr">
+                  <li>Préparation, installation et nettoyage du chantier</li>
+                  <li>Manutention et approvisionnement en matériaux</li>
+                  <li>Petits travaux de maçonnerie, démolition, plâtrerie et peinture</li>
+                  <li>Pose de cloisons, de carrelage et de revêtements</li>
+                  <li>Utilisation d'outillage électroportatif</li>
+                  <li>Lecture de plans et prise de mesures</li>
+                  <li>Travail en équipe et respect des consignes de sécurité</li>
+                </ul>
+                <ul lang="en">
+                  <li>Site preparation, setup and cleaning</li>
+                  <li>Material handling and supply</li>
+                  <li>Masonry, demolition, plastering and painting work</li>
+                  <li>Installing partitions, tiles and floor coverings</li>
+                  <li>Operating power tools</li>
+                  <li>Reading plans and taking measurements</li>
+                  <li>Teamwork and compliance with safety rules</li>
+                </ul>
+              </li>
+              <li class="tl-item reveal">
+                <span class="tl-date mono"><span lang="fr">Été 2023</span><span lang="en">Summer 2023</span></span>
+                <h5><span lang="fr">Bénévole, collecte alimentaire et solidaire</span><span lang="en">Volunteer, food and solidarity drive</span></h5>
+                <p class="tl-org"><span lang="fr">Association caritative</span><span lang="en">Charity organization</span></p>
+                <ul lang="fr">
+                  <li>Collecte et distribution de denrées alimentaires et de produits de première nécessité pour des personnes en difficulté</li>
+                </ul>
+                <ul lang="en">
+                  <li>Collected and distributed food and essential goods for people in need</li>
+                </ul>
+              </li>
+              <li class="tl-item reveal">
+                <span class="tl-date mono">2021</span>
+                <h5><span lang="fr">Stage de 3<sup>e</sup></span><span lang="en">Middle-school work placement</span></h5>
+                <p class="tl-org"><span lang="fr">S VERTICAL, ingénierie logicielle et simulation numérique · Châtenay-Malabry (92)</span><span lang="en">S VERTICAL, software engineering and numerical simulation · Châtenay-Malabry (92)</span></p>
+                <ul lang="fr">
+                  <li>Tri et présélection des candidatures reçues (CV)</li>
+                  <li>Développement d'un premier prototype de programme de reconnaissance faciale en Python</li>
+                  <li>Découverte du fonctionnement d'une entreprise spécialisée dans le logiciel</li>
+                </ul>
+                <ul lang="en">
+                  <li>Sorted and pre-screened incoming job applications (resumes)</li>
+                  <li>Built a first prototype of a facial recognition program in Python</li>
+                  <li>Discovered how a software company operates</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <h4 class="col-title"><span lang="fr">Formation</span><span lang="en">Education</span></h4>
+            <ol class="timeline">
+              <li class="tl-item reveal">
+                <span class="tl-date mono"><span lang="fr">2026 – en cours</span><span lang="en">2026 – ongoing</span></span>
+                <h5><span lang="fr">BTS SIO, option SLAM (1<sup>re</sup> année)</span><span lang="en">BTS SIO, Software Development option (1st year)</span></h5>
+                <p class="tl-org"><span lang="fr">CNED, formation à distance</span><span lang="en">CNED, distance learning</span></p>
+                <p lang="fr">Services Informatiques aux Organisations : Solutions Logicielles et Applications Métiers. Développement web et applicatif, bases de données, cybersécurité.</p>
+                <p lang="en">Two-year French higher national diploma in IT services, specialized in software solutions and business applications: web and application development, databases, cybersecurity.</p>
+              </li>
+            </ol>
+
+            <div id="internship" class="internship reveal">
+              <div class="badge"><span class="dot"></span><span lang="fr">Recherche active</span><span lang="en">Actively looking</span></div>
+              <h5><span lang="fr">Recherche de stages en développement</span><span lang="en">Looking for development internships</span></h5>
+              <p lang="fr">2 stages à réaliser dans le cadre du BTS SIO SLAM. <strong>Dates flexibles</strong>, grâce à la formation à distance au CNED : je m'adapte à vos besoins.</p>
+              <p lang="en">2 internships required as part of the BTS SIO program. <strong>Flexible dates</strong> thanks to distance learning with CNED: I can adapt to your schedule.</p>
+              <a href="mailto:mohamedbeji216@gmail.com?subject=Proposition%20de%20stage" class="btn btn-primary"><span lang="fr">Me proposer un stage</span><span lang="en">Offer me an internship</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h3 class="section-title reveal"><span class="mono num">04.</span> <span lang="fr">Projets</span><span lang="en">Projects</span></h3>
+
+        <div class="cards-3">
+          <article class="card project reveal">
+            <div class="project-emoji" aria-hidden="true">🚗</div>
+            <h4><span lang="fr">Boutique d'écrans CarPlay</span><span lang="en">CarPlay screen store</span></h4>
+            <p><span lang="fr">Boutique en ligne d'écrans CarPlay pour voitures.</span><span lang="en">Online store selling CarPlay screens for cars.</span></p>
+            <ul class="tags small"><li>Shopify</li><li>E-commerce</li></ul>
+          </article>
+          <article class="card project reveal">
+            <div class="project-emoji" aria-hidden="true">🏍️</div>
+            <h4><span lang="fr">Équipements pour motards</span><span lang="en">Motorcycle gear store</span></h4>
+            <p><span lang="fr">Boutique en ligne d'équipements et d'accessoires pour motards.</span><span lang="en">Online store for motorcycle gear and accessories.</span></p>
+            <ul class="tags small"><li>Shopify</li><li>E-commerce</li></ul>
+          </article>
+          <article class="card project reveal">
+            <div class="project-emoji" aria-hidden="true">👕</div>
+            <h4><span lang="fr">Boutique de vêtements</span><span lang="en">Clothing store</span></h4>
+            <p><span lang="fr">Boutique en ligne de vêtements.</span><span lang="en">Online clothing store.</span></p>
+            <ul class="tags small"><li>Shopify</li><li>E-commerce</li></ul>
+          </article>
+        </div>
+
+        <div class="shopify-note card reveal">
+          <h4><span lang="fr">Ce que j'ai réalisé sur ces boutiques</span><span lang="en">What I did on these stores</span></h4>
+          <ul class="checks" lang="fr">
+            <li>Personnalisation du thème avec l'éditeur Shopify (couleurs, logo, mise en page)</li>
+            <li>Création des fiches produits (photos, descriptions, prix)</li>
+            <li>Organisation du catalogue en collections</li>
+            <li>Configuration des paiements et de la livraison</li>
+            <li>Ajout de fonctionnalités avec les applications Shopify</li>
+          </ul>
+          <ul class="checks" lang="en">
+            <li>Theme customization with the Shopify editor (colors, logo, layout)</li>
+            <li>Product page creation (photos, descriptions, pricing)</li>
+            <li>Catalog organization into collections</li>
+            <li>Payment and shipping setup</li>
+            <li>Adding features with Shopify apps</li>
+          </ul>
+        </div>
+
+        <article class="card project wide reveal">
+          <div class="project-emoji" aria-hidden="true">🧠</div>
+          <div>
+            <h4><span lang="fr">Reconnaissance faciale en Python</span><span lang="en">Facial recognition in Python</span></h4>
+            <p>
+              <span lang="fr">Premier prototype de programme de reconnaissance faciale, développé pendant mon stage chez S VERTICAL en 2021. Mon tout premier projet de code !</span>
+              <span lang="en">First prototype of a facial recognition program, built during my placement at S VERTICAL in 2021. My very first coding project!</span>
+            </p>
+            <ul class="tags small"><li>Python</li><li><span lang="fr">Prototype</span><span lang="en">Prototype</span></li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h3 class="section-title reveal"><span class="mono num">05.</span> Contact</h3>
+        <div class="contact-box reveal">
+          <p class="contact-lead">
+            <span lang="fr">Vous cherchez un stagiaire motivé en développement ? Écrivez-moi, je vous réponds rapidement.</span>
+            <span lang="en">Looking for a motivated development intern? Send me a message, I'll get back to you quickly.</span>
+          </p>
+          <a class="contact-mail" href="mailto:mohamedbeji216@gmail.com">mohamedbeji216@gmail.com</a>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/beji-mohamed-a06478214" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+            <a href="https://github.com/MHD917" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+          </div>
+          <p class="location center">Essonne (91), Île-de-France</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Mohamed BEJI · <span lang="fr">Conçu et codé avec passion</span><span lang="en">Designed and built with passion</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
