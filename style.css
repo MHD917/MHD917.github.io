@@ -110,6 +110,14 @@ html[lang="en"] .lang-opt[data-lang="en"] { background: var(--grad); color: #0b0
   position: static; font-size: .95rem; line-height: 1.8; padding: 22px 26px 26px;
   box-shadow: 0 30px 80px -30px rgba(56, 189, 248, .45);
 }
+.monogram {
+  width: 150px; height: 150px; margin: 0 auto 28px; border-radius: 50%; padding: 4px;
+  background: var(--grad); box-shadow: 0 30px 80px -30px rgba(56, 189, 248, .55);
+}
+.monogram span {
+  display: grid; place-items: center; width: 100%; height: 100%; border-radius: 50%;
+  background: #0f1b2d; color: #fff; font-size: 3.4rem; font-weight: 800; letter-spacing: .04em;
+}
 .code-dots { display: flex; gap: 7px; margin-bottom: 14px; }
 .code-dots i { width: 11px; height: 11px; border-radius: 50%; background: #f87171; }
 .code-dots i:nth-child(2) { background: #fbbf24; }
@@ -229,6 +237,8 @@ html[lang="en"] .lang-opt[data-lang="en"] { background: var(--grad); color: #0b0
   .hero-inner, .about-grid, .two-cols { grid-template-columns: 1fr; }
   .hero { padding-top: 50px; }
   .code-card.big { font-size: .82rem; padding: 18px 18px 20px; }
+  .monogram { width: 110px; height: 110px; margin-bottom: 20px; }
+  .monogram span { font-size: 2.5rem; }
   .cards-3 { grid-template-columns: 1fr; }
   .checks { grid-template-columns: 1fr; }
 }
